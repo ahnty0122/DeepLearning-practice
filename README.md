@@ -1,18 +1,18 @@
 ## OpenPose Toyproject
-1. Clone openpose
+* __Clone openpose__
 
 ```
 git clone https://github.com/CMU-Perceptual-Computing-Lab/openpose.git
 ```
-* clone 후 models 파일에 getModels 파일 실행
-* 코드 실행 시엔 models -> pose -> mpi 의 'pose_deploy_linevec_faster_4_stages.prototxt' 와 'pose_iter_160000.caffemodel' 만 필요
+1. clone 후 models 파일에 getModels 파일 실행
+2. 코드 실행 시엔 models -> pose -> mpi 의 'pose_deploy_linevec_faster_4_stages.prototxt' 와 'pose_iter_160000.caffemodel' 만 필요
 
-2. OpenCV Ver 3.4.1 이상 다운
+* __OpenCV Ver 3.4.1 이상 다운__
 ```
 pip install opencv-python
 ```
 
-3. OpenPose.py 실행
+* __OpenPose.py 실행__
 
 ## YOLO Object Detection 구현
 * Object detection with YOLOv3
@@ -25,8 +25,8 @@ pip install opencv-python
 #### VGG & ResNet으로 구현
 
 ## dog VS cat classfication
-1. 간단한 keras cnn model로 binary classfication 구현
-2. train & test
+* 간단한 keras cnn model로 binary classfication 구현
+* train & test
 
 ## Fashion mnist
 #### 옷 이미지 분류 신경망 모델 train
