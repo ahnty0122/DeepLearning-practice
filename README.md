@@ -34,3 +34,8 @@ pip install opencv-python
 * dataset에 class 지정 안 되어 있음 -> 변수 만들어 저장
 * image pixel 값 전처리 (0-1 사이로 값 조정)
 * train & test
+
+## SRCNN
+#### 저해상도 image 입력하면 고해상도 image로 출력
+* hyperparameter tuning
+* PSNR(Peak Signal to Noise Ratio)과 구조적 유사성 SSIM(Structural Similarith)으로 성능 평가
